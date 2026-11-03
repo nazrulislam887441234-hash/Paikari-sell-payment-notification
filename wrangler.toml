@@ -1,0 +1,9 @@
+name = "paikari-add-balance-notify"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+FIREBASE_PROJECT_ID = "paikarisell-ghotimarket"
+ALLOWED_ORIGIN = "https://paikarisell.ghotimarket.com"
+# BOT TOKEN, CHAT ID, SERVICE ACCOUNT এগুলো Secret এ দিবে, এখানে না!
