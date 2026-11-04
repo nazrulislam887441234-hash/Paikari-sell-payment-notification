@@ -1,9 +1,6 @@
-name = "paikari-add-balance-notify"
+name = "telegram-add-balance"
 main = "src/index.js"
-compatibility_date = "2024-12-01"
-compatibility_flags = ["nodejs_compat"]
+compatibility_date = "2024-01-01"
 
 [vars]
-FIREBASE_PROJECT_ID = "paikarisell-ghotimarket"
-ALLOWED_ORIGIN = "https://paikarisell.ghotimarket.com"
-# BOT TOKEN, CHAT ID, SERVICE ACCOUNT এগুলো Secret এ দিবে, এখানে না!
+TELEGRAM_CHAT_ID = "8448158615"
